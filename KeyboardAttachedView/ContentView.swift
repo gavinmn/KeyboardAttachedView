@@ -25,7 +25,7 @@ struct ContentView: View {
 					}
 				}
 			}
-            .contentMargins(.bottom, -offset)
+			.contentMargins(.bottom, -offset)
 			.scrollDismissesKeyboard(.interactively)
 			.scrollClipDisabled()
 			.defaultScrollAnchor(.bottom)
