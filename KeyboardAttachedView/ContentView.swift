@@ -24,9 +24,8 @@ struct ContentView: View {
 						Spacer()
 					}
 				}
-				Spacer()
-					.frame(height: min(max(-offset, 0), .infinity))
 			}
+            .contentMargins(.bottom, -offset)
 			.scrollDismissesKeyboard(.interactively)
 			.scrollClipDisabled()
 			.defaultScrollAnchor(.bottom)
